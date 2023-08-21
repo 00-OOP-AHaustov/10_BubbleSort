@@ -1,0 +1,10 @@
+Bubblesort pseudocode
+
+BubbleSort (Liste x)
+    für a=1 bis e=x.länge-1
+        für b=0 bis f= e-a
+            wenn Liste[b] > Liste[b+1] dann
+                tmp         =Liste[b]
+                Liste[b]    =Liste[b+1]
+                Liste[b+1]  =tmp
+    Ausgabe Liste x
